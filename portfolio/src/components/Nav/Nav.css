@@ -1,0 +1,92 @@
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  text-align: center;
+  background-image: url(https://i.imgur.com/c9vvtZN.jpg);
+  background-size: cover;
+  color: beige;
+}
+a {
+  color: beige;
+  padding: 0px;
+  display: inline-block;
+  transform: scale(1);
+}
+
+h1 {
+  font-size: 65px;
+}
+h2 {
+  margin: 5px 0px 1px 0px;
+}
+
+img {
+  margin: 40px 0px 0px 0px;
+  border: 7px solid white;
+  border-radius: 20px;
+}
+
+ul {
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+a:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+img:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+.link {
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+.about {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+article {
+  max-width: 800px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.project {
+  display:inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(67, 103, 154);
+  height: 150px;
+  width: 250px;
+  gap: 15px;
+}
+
+.project2 {
+  display:inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(67, 103, 154);
+  height: 150px;
+  width: 250px;
+  gap: 15px;
+}
+.project3 {
+  display:inline-flex;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 8px;
+  border: 3px solid rgba(0, 0, 0, 0.5);
+  background-color: rgb(67, 103, 154);
+  height: 150px;
+  width: 250px;
+  gap: 15px;
+}
