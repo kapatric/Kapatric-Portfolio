@@ -7,6 +7,7 @@ header {
   background-image: url(https://i.imgur.com/c9vvtZN.jpg);
   background-size: cover;
   color: beige;
+  border-radius: 40px;
 }
 a {
   color: beige;
@@ -59,6 +60,8 @@ article {
   margin: 0 auto;
 }
 
+
+
 .project {
   display:inline-flex;
   grid-template-columns: 1fr 1fr 1fr;
@@ -67,7 +70,7 @@ article {
   background-color: rgb(67, 103, 154);
   height: 150px;
   width: 250px;
-  gap: 15px;
+  margin-right: 5px;
 }
 
 .project2 {
@@ -78,7 +81,7 @@ article {
   background-color: rgb(67, 103, 154);
   height: 150px;
   width: 250px;
-  gap: 15px;
+  margin-right: 5px;
 }
 .project3 {
   display:inline-flex;
@@ -88,5 +91,5 @@ article {
   background-color: rgb(67, 103, 154);
   height: 150px;
   width: 250px;
-  gap: 15px;
+  margin-right: 5px;
 }
