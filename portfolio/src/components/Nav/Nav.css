@@ -60,7 +60,15 @@ article {
   margin: 0 auto;
 }
 
+.home {
+  font-size: large;
+  
+}
 
+.mail {
+  font-size: large;
+ 
+}
 
 .project {
   display:inline-flex;
