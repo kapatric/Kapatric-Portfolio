@@ -34,7 +34,7 @@ function Content() {
         </article>
       </div>
       <center>
-        <IoMailOutline className="mail" onClick={() => window.open("mailto:khristopherpatrick@gmail.com")} />
+        <IoMailOutline className="mail" onClick={() => window.open("mailto:khristopherpatrick@gmail.com")} /> Email Me
         </center>
     </Router>
   );
