@@ -1,13 +1,12 @@
 import React from "react";
 import "./Nav.css"
-import face from '../../assets/KP.jpeg'
 import { IoHomeOutline } from "react-icons/io5";
 
 function Nav() {
 
   return (
     <header>
-      <img src={face} alt=""/>
+      <img src="/Users/khristopherpatrick/sei/projects/Kapatric-Portfolio/portfolio/public/KP.jpeg" alt=""/>
       <h1>Khristopher Patrick</h1>
       <ul>
       <li><a href="/" className="home"><IoHomeOutline /></a></li>
