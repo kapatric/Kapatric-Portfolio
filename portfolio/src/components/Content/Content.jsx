@@ -24,9 +24,10 @@ function Content() {
           <h2>Projects</h2>
           <hr></hr>
           <div className="stuff">
-            <div className="project" style={{ backgroundImage: `url(/dog.jpeg)` }} onClick={() => window.open(site, '_blank')}></div>
+              <div className="project" onClick={() => window.open(site, '_blank')} style={{ backgroundImage: `url("https://www.animatedimages.org/data/media/202/animated-dog-image-0638.gif")` }}></div>
+    
             <div className="project2" style={{ backgroundImage: `url(/country.jpeg)` }} onClick={() => window.open(url, '_blank')}></div>
-            <div className="project3" style={{ backgroundImage: `url(/Fuber.jpeg)` }} ononClick={() => window.open(fuber, '_blank')}></div>
+            <div className="project3" style={{ backgroundImage: `url(/Fuber.jpeg)` }} onClick={() => window.open(fuber, '_blank')}></div>
           </div>
         </article>
       </div>

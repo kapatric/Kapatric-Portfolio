@@ -6,7 +6,7 @@ function Nav() {
 
   return (
     <header>
-      <img src="/Users/khristopherpatrick/sei/projects/Kapatric-Portfolio/portfolio/public/KP.jpeg" alt=""/>
+      <img src="/KP.jpeg" alt=""/>
       <h1>Khristopher Patrick</h1>
       <ul>
       <li><a href="/" className="home"><IoHomeOutline /></a></li>
