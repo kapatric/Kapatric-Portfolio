@@ -55,11 +55,13 @@ function Content() {
         </article>
       </div>
       <center>
+        <div className="mail-content">
         <IoMailOutline
           className="mail"
           onClick={() => window.open("mailto:khristopherpatrick@gmail.com")}
         />{" "}
-        Email Me
+          Email Me
+          </div>
       </center>
     </Router>
   );

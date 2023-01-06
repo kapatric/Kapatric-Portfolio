@@ -67,6 +67,11 @@ article {
 
 .mail {
   font-size: large;
+  
+}
+.mail-content{
+  margin-bottom: 5px;
+  cursor: pointer;
 }
 
  .links {
@@ -85,6 +90,7 @@ article {
   margin-right: 5px;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 
@@ -96,6 +102,7 @@ article {
   margin-right: 5px;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 .project3 {
   grid-template-columns: 1fr 1fr 1fr;
@@ -104,6 +111,7 @@ article {
   margin-right: 5px;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .stuff {
