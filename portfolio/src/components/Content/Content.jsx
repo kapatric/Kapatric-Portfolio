@@ -21,7 +21,7 @@ function Content() {
             California kid that migrated to NYC
           </p>
 
-          <p>I’m a creative software engineer expanding my skills in frontend engineering with an additional interest in Android development. I have a passion for building clean, stylist sites that increase accessibility to resources to all. Melding my skill sets in software engineering and recruiting will eventually yield a better working alternative to current ATS systems.
+          <p>I’m a creative software engineer expanding my skills in frontend engineering with an additional interest in Android development. I have a passion for building clean, stylistic sites that increase accessibility to resources for all. Melding my skill sets in software engineering and recruiting will eventually yield a better working alternative to current ATS systems.
 </p>
         </div>
         <article className="projects">
