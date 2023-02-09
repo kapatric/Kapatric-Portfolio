@@ -6,7 +6,7 @@ const fuber = "https://fuber-eats.netlify.app";
 
 export default function Projects() {
   return (
-    <article className="projects">
+    <article id="projects">
           <h2>Projects</h2>
           <hr></hr>
           <div className="stuff">
