@@ -1,4 +1,4 @@
-html {
+* {
   scroll-behavior: smooth;
 }
 
@@ -53,6 +53,8 @@ img:hover {
   max-width: 500px;
   margin: 0 auto;
   padding: 20px;
+  border: 1px solid;
+  box-shadow: 10px 10px #04710b;
 }
 article {
   max-width: 800px;
@@ -121,5 +123,11 @@ article {
   grid-template-columns: 1fr 1fr 1fr;
  justify-content: space-evenly;
  scroll-behavior: smooth;
- 
+}
+
+#things {
+  border: 1px solid;
+  box-shadow: 10px 10px #04710b;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }

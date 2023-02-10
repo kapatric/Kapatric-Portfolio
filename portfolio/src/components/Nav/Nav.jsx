@@ -3,13 +3,13 @@ import "./Nav.css"
 import "../Projects/Projects.jsx"
 import { IoHomeOutline } from "react-icons/io5";
 import { IoMailOutline } from "react-icons/io5";
-import { Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
  
 
 function Nav() {
   const handleClick = () => {
-    const element = document.getElementById('projects');
+    const element = document.getElementById('things');
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
@@ -21,7 +21,7 @@ function Nav() {
       <h1>Khristopher Patrick</h1>
       <ul>
         <li><a href="/" className="home"><IoHomeOutline /></a></li>
-      <li id="projects" onclick={handleClick}><Link to="/projects" >Projects</Link></li>
+        <li ><Link to="/projects" onclick={handleClick} id="click">Projects</Link></li>
       <li><a href="https://github.com/kapatric?tab=repositories">Github</a></li>
       <li><a href="https://www.linkedin.com/in/khristopherahmad/">LinkedIn</a></li>
       <li><a href="#mail"><IoMailOutline
