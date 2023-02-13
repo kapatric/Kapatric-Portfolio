@@ -21,13 +21,13 @@ export default function Projects() {
             </div>
             
             <div
-              className="project2"
+              className="project"
               style={{ backgroundImage: `url(https://lh3.googleusercontent.com/-xMdH0DB20Ck/WnCpTDDRpOI/AAAAAAAAqsg/r847ux8JZ5Qs59kH_26PUGJGRDbsngyhgCHMYCw/s0/United-Nations-flag-wave.gif` }}
               onClick={() => window.open(url, "_blank")}
             ><p className="links">United Nations</p></div>
             
             <div
-              className="project3"
+              className="project"
               style={{
                 backgroundImage: `url("https://media.tenor.com/LeSVOZJUt-oAAAAM/muuve-rider.gif")`,
               }}

@@ -64,7 +64,6 @@ article {
 
 .home {
   font-size: large;
-  
 }
 
 .mail {
@@ -95,27 +94,6 @@ article {
   cursor: pointer;
 }
 
-
-.project2 {
-  grid-template-columns: 1fr 1fr 1fr;
-  border-radius: 8px;
-  height: 200px;
-  width: 250px;
-  margin-right: 5px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-.project3 {
-  grid-template-columns: 1fr 1fr 1fr;
-  height: 200px;
-  width: 250px;
-  margin-right: 5px;
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-}
-
 .stuff {
   height: 200px;
   width:750px;
@@ -130,4 +108,32 @@ article {
   box-shadow: 10px 10px #04710b;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    margin: auto;
+  }
+
+  .stuff {
+    height: auto;
+    width: 600px;
+  }
+  .about {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid;
+    box-shadow: 10px 10px #04710b;
+  }
+
+  .project {
+    height: auto;
+    width: 30%;
+    position: center;
+    margin-right: 5px;
+    background-repeat: no-repeat;
+    background-position: relative;
+    cursor: pointer;
+  }
 }
