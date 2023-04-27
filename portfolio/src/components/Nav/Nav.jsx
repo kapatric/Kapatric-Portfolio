@@ -18,6 +18,7 @@ function Nav() {
     <header>
       <img src="/KP.jpeg" alt=""/>
       <h1>Khristopher Patrick</h1>
+      <nav>
       <ul>
         <li><a href="/" className="home"><IoHomeOutline /></a></li>
         <li onclick={(scrollBottom)}><Link to="/projects"  id="click">Projects</Link></li>
@@ -28,6 +29,7 @@ function Nav() {
           onClick={() => window.open("mailto:khristopherpatrick@gmail.com")}
         /></a></li>
     </ul>
+    </nav>
     </header>
   );
 }

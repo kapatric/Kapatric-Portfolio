@@ -24,7 +24,9 @@ h2 {
 }
 
 img {
-  margin: 40px 0px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
   border: 7px solid white;
   border-radius: 20px;
 }
@@ -117,7 +119,7 @@ article {
 
   .stuff {
     height: auto;
-    width: 600px;
+    width: 100%;
   }
   .about {
     max-width: 100%;
@@ -128,12 +130,16 @@ article {
   }
 
   .project {
-    height: auto;
-    width: 30%;
+    width: 33%;
     position: center;
     margin-right: 5px;
     background-repeat: no-repeat;
     background-position: relative;
     cursor: pointer;
+  }
+  article {
+    max-width: 100%;
+    padding: 20px;
+    margin: 0 auto;
   }
 }
